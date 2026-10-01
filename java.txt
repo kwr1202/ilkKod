@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         int toplam = 0;
 
-        // 2'den 20'ye kadar ikişer ikişer artarak sadece çift sayıları alıyoruz
+      
         for (int i = 2; i <= 20; i += 2) {
-            toplam += i * i * i; // Sayının küpünü alıp toplama ekliyoruz
+            toplam += i * i * i; 
         }
 
         System.out.println("Çift sayıların küpleri toplamı: " + toplam);
